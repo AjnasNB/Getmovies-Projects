@@ -47,12 +47,11 @@ To run the application locally, follow these steps:
 1. Navigate to the `frontend` folder:
    ```sh
    cd frontend
-```
-2.Install the necessary dependencies:
+2. Install the necessary dependencies:
 ```sh
 npm install
 ```
-3.Start the frontend development server:
+3. Start the frontend development server:
 
 ```sh
 npm start
