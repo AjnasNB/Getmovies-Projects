@@ -2,6 +2,8 @@
 
 Welcome to the GetMovies frontend repository. This React application serves as the user interface for the GetMovies web application. It allows users to search for movies, view detailed information, and manage their favorite movies.
 
+#### You can access the frontend here: https://getmovies.ajnasnb.live/
+
 ## Description
 
 The GetMovies frontend application provides the following features:
