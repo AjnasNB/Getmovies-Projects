@@ -1,0 +1,96 @@
+.banner {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.banner-image-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: #fff;
+  max-width: 500px;
+}
+
+.banner-content h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.banner-content p {
+  font-size: 16px;
+}
+
+.banner-content button {
+  padding: 30px 50px;
+  background-color: #ff0059;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.banner-dots {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, width 0.3s;
+}
+
+.dot.active {
+  width: 20px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.trailer-button{
+display: flex;
+  
+  align-items: center;
+
+  
+ 
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  
+ 
+}
+.play-icon{
+ 
+ 
+
+  font-size: 34px;
+  color: #ff0059;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-right: 10px;
+}

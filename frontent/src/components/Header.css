@@ -1,0 +1,125 @@
+/* src/components/Header.css */
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  max-width: 1200px; /* Set the max-width to align with the banner */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjusted padding */
+}
+
+.logo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-container {
+  width: 32px; /* Adjust size as needed */
+  height: 32px;
+  background-color: #FF0059;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 16px;  /* Adjust size as needed */
+  height: 16px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+.search-bar-container {
+  margin-top: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px; /* Adjust margin */
+}
+
+.search-bar {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #fff; /* Ensure the background is white */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 35px 10px 35px;  /* Adjust padding to accommodate the search icon */
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: #fff; /* Ensure the background is white */
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  color: black;  /* Inline style already sets the color to black */
+  background-color: white;  /* Inline style already sets the background color to white */
+}
+
+.clear-button {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #888;
+  padding: 0;
+}
+
+.favorites-button {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.favorites-button button {
+  padding: 10px 20px;
+  background-color: #ff0059;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.favorites-button button svg {
+  margin-right: 5px;
+}
+
+.favorites-button a {
+  text-decoration: none;
+}

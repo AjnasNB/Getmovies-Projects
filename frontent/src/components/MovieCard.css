@@ -1,0 +1,71 @@
+/* src/components/MovieCard.css */
+
+.movie-card {
+  width: calc(25% - 20px); /* Four cards in a row with spacing */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ffffff; /* Background color */
+  border: none;
+  
+  
+  box-shadow: none;
+}
+
+.movie-poster {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 150%; /* Maintain aspect ratio */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.movie-poster img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #888; /* Initially grey */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.favorite-icon.favorite {
+  color: #FF0059; /* Change to red when favorited */
+}
+
+.movie-details {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.movie-year {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.movie-title {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.movie-genre {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #888;
+}

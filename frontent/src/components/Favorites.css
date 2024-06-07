@@ -1,0 +1,17 @@
+/* src/components/Favorites.css */
+
+.favorites {
+    padding: 20px;
+  }
+  
+  .favorites h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .favorite-movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  

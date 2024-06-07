@@ -1,0 +1,115 @@
+/* src/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* src/components/Banner.css */
+
+.banner {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.banner-content h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.banner-content p {
+  font-size: 16px;
+}
+
+.banner-content button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  color: #050505;
+  font-size: 18px;
+  border-radius: 14px;
+  font-weight: bold; /* Add this line to make the content inside the button bold */
+}
+
+
+/* src/components/MovieList.css */
+
+.movie-list {
+  padding: 20px 0;
+}
+
+.movie-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* src/components/MovieCard.css */
+
+.movie-card {
+  width: calc(25% - 20px);
+  
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  
+  margin-bottom: 20px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.movie-card p {
+  margin: 0 10px 10px;
+  color: #555;
+}
+
+.movie-card button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}

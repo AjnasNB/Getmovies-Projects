@@ -1,0 +1,25 @@
+/* src/components/SearchResults.css */
+
+.search-results {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-results h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.no-data {
+  font-size: 38px;
+  color: #888;
+  margin-top: 20px;
+  height: 100vw;
+}

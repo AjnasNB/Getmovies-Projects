@@ -1,0 +1,14 @@
+/* src/components/MovieList.css */
+
+.movie-list-container {
+  padding: 0 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h1{
+  font-size: 38px;
+}
