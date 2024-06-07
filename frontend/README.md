@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# GetMovies Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the GetMovies frontend repository. This React application serves as the user interface for the GetMovies web application. It allows users to search for movies, view detailed information, and manage their favorite movies.
+
+## Description
+
+The GetMovies frontend application provides the following features:
+
+- **Home Page**: Displays a list of movies fetched from the backend API.
+- **Search Functionality**: Allows users to search for movies using the search bar at the top of the page. The list of movies updates in real-time to match the search query.
+- **Movie Details Popup**: Clicking on a movie card opens a detailed popup modal with more information about the selected movie, including the plot, director, cast, and ratings from IMDb, Rotten Tomatoes, and Metacritic.
+- **Favorites Management**: Users can click the heart icon on a movie card to add or remove it from their favorites.
 
 ## Available Scripts
 
@@ -8,7 +17,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -27,44 +36,32 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the Application Locally
 
-## Learn More
+To run the application locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Navigate to the `frontend` folder:
+   ```sh
+   cd frontend
+```
+2.Install the necessary dependencies:
+```sh
+npm install
+```
+3.Start the frontend development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm start
+```
+### The frontend application should now be running on http://localhost:3000.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Accessing the Application
+#### You can also access the deployed frontend application at https://getmovies.ajnasnb.live/.
