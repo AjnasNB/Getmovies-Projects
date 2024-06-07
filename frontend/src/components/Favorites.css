@@ -1,17 +1,32 @@
 /* src/components/Favorites.css */
 
-.favorites {
-    padding: 20px;
-  }
-  
-  .favorites h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .favorite-movies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
+.favorites-container {
+  padding: 20px;
+}
+
+.favorites-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.back-icon {
+  font-size: 34px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
