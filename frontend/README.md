@@ -7,10 +7,13 @@ Welcome to the GetMovies frontend repository. This React application serves as t
 The GetMovies frontend application provides the following features:
 
 - **Home Page**: Displays a list of movies fetched from the backend API.
+![Home Page](./assets/homepage.png)
 - **Search Functionality**: Allows users to search for movies using the search bar at the top of the page. The list of movies updates in real-time to match the search query.
+![Search Page](./assets/search.png)
 - **Movie Details Popup**: Clicking on a movie card opens a detailed popup modal with more information about the selected movie, including the plot, director, cast, and ratings from IMDb, Rotten Tomatoes, and Metacritic.
+![Popup Modal](./assets/modal.png)
 - **Favorites Management**: Users can click the heart icon on a movie card to add or remove it from their favorites.
-
+![Favorite](./assets/favorites.png)
 ## Available Scripts
 
 In the project directory, you can run:
